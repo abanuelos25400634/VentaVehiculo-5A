@@ -16,11 +16,16 @@ public class Vehiculo {
     
     
     //              get()
-    public String getMarca(){return this.marca;};
-    public double getPrecio(){return this.precio;};
-    public String getMotor(){return this.motor;};
-    //              set()
+    public String getMarca(){return "Marca: "+ this.marca;};
+    public double getPrecio(){return + this.precio;};
+    public String getMotor(){return  "Motor: "+ this.motor;};
     
+    
+    
+    //              set()
+    public void setMarca(String marca) {this.marca = marca;}
+    public void setPrecio(double precio){this.precio = precio;}
+    public void setMotor(String motor){this.motor = motor;}
     
     @Override
     public String toString()
