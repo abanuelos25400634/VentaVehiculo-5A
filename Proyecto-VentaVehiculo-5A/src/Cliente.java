@@ -11,6 +11,21 @@ public class Cliente {
     this.email = email;
     }
     
+    
+                //get()
+    public String getRs(){return this.rs;}
+    public String getRfc(){return this.rfc;}
+    public String getEmail(){return this.email;}
+    
+    
+    
+                //Set()
+    public void setRs(String rs){this.rs = rs;}
+    public void setRfc(String rfc){this.rfc = rfc;}
+    public void setEmail(String email){this.email = email;}
+    
+    
+    
     @Override
     public String toString(){return "Rs: "+ this.rs+"\n"
             + "RFC: "+ this.rfc + "\n" +
